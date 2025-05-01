@@ -2,9 +2,7 @@
 <html>
   <head>
     <script type="text/javascript">
-      // Read the fragment from the URL
       const fragment = window.location.hash;
-      // Redirect to app, preserving the token
       window.location = "twitchless://auth" + fragment;
     </script>
     <title>Redirecting...</title>
